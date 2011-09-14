@@ -1,0 +1,8 @@
+*~
+*#*
+target
+project/boot
+workspace
+.classpath
+.project
+.scala_dependencies
