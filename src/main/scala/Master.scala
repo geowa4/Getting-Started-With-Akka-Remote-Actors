@@ -9,7 +9,7 @@ object PiServer extends App {
   register
   
   def register {
-    remote.start("localhost", 2552)
+    remote.start()
     remote.registerPerSession("pi-calculator-service", actorOf[Master])
   }
 }
